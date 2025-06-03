@@ -18,7 +18,8 @@ def test_login(username, password):
   input_field.clear()
   input_field.send_keys(password)
   driver.find_element(By.CSS_SELECTOR, 'button.oxd-button.oxd-button--medium.oxd-button--main.orangehrm-login-button').click()
-  time.sleep(20)
+  time.sleep(3)
+
   return driver
 
 
